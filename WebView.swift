@@ -1,3 +1,35 @@
+#if canImport(AppKit)
+import SwiftUI
+import WebKit
+
+struct WebView: NSViewRepresentable {
+    let url: URL
+
+    class Coordinator: NSObject, WKUIDelegate {
+        var parent: WebView
+        init(_ parent: WebView) { self.parent = parent }
+    }
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+
+    func makeNSView(context: Context) -> WKWebView {
+        let webConfiguration = WKWebViewConfiguration()
+        let webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = context.coordinator
+        let request = URLRequest(url: url)
+        webView.load(request)
+        return webView
+    }
+
+    func updateNSView(_ nsView: WKWebView, context: Context) {
+        // Implement if needed
+    }
+}
+#endif
+
+#if canImport(UIKit)
 //
 //  BrowserView.swift
 //  WKWebview
@@ -42,3 +74,6 @@ struct WebView: UIViewRepresentable {
         
     }
 }
+
+#endif
+

@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            WebView(url: URL(string: "https://snap-a-dot.playperidot.com/")!)
+            WebView(url: URL(string: "https://example.com")!)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }
