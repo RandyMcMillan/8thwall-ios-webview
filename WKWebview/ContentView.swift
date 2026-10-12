@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            WebView(url: URL(string: "https://apple.com")!)
+            WebView(url: URL(string: "http://localhost:8080/index.html")!)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
@@ -21,3 +21,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

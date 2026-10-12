@@ -7,6 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B9767B3307A3C29007A375E /* StaticFileServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9767B2307A3C29007A375E /* StaticFileServer.swift */; };
+		4BEA7D0A307A3EB90003330F /* dag-actions.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CBA307A3EB90003330F /* dag-actions.mjs */; };
+		4BEA7D0B307A3EB90003330F /* icon-circle-bitcoin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CEA307A3EB90003330F /* icon-circle-bitcoin.svg */; };
+		4BEA7D0C307A3EB90003330F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CB7307A3EB90003330F /* index.html */; };
+		4BEA7D0D307A3EB90003330F /* bridge-recent-query.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD1307A3EB90003330F /* bridge-recent-query.mjs */; };
+		4BEA7D0E307A3EB90003330F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CBF307A3EB90003330F /* index.html */; };
+		4BEA7D0F307A3EB90003330F /* isomorphic-git.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CFB307A3EB90003330F /* isomorphic-git.mjs */; };
+		4BEA7D10307A3EB90003330F /* event.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CB6307A3EB90003330F /* event.html */; };
+		4BEA7D11307A3EB90003330F /* nostr.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CB4307A3EB90003330F /* nostr.json */; };
+		4BEA7D12307A3EB90003330F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC9307A3EB90003330F /* README.md */; };
+		4BEA7D13307A3EB90003330F /* browser-detect.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD6307A3EB90003330F /* browser-detect.mjs */; };
+		4BEA7D14307A3EB90003330F /* dag-page.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDB307A3EB90003330F /* dag-page.mjs */; };
+		4BEA7D15307A3EB90003330F /* app-version.generated.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CCC307A3EB90003330F /* app-version.generated.mjs */; };
+		4BEA7D16307A3EB90003330F /* relay.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CB8307A3EB90003330F /* relay.html */; };
+		4BEA7D17307A3EB90003330F /* bridge-cache.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CCE307A3EB90003330F /* bridge-cache.mjs */; };
+		4BEA7D18307A3EB90003330F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CBB307A3EB90003330F /* index.html */; };
+		4BEA7D19307A3EB90003330F /* .nojekyll in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D00307A3EB90003330F /* .nojekyll */; };
+		4BEA7D1A307A3EB90003330F /* icon-circle-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CEB307A3EB90003330F /* icon-circle-white.svg */; };
+		4BEA7D1B307A3EB90003330F /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D07307A3EB90003330F /* run.sh */; };
+		4BEA7D1C307A3EB90003330F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC1307A3EB90003330F /* README.md */; };
+		4BEA7D1D307A3EB90003330F /* git-p2p-transport.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE1307A3EB90003330F /* git-p2p-transport.mjs */; };
+		4BEA7D1E307A3EB90003330F /* nip34-quorum.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF1307A3EB90003330F /* nip34-quorum.mjs */; };
+		4BEA7D1F307A3EB90003330F /* async-lifecycle.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CCD307A3EB90003330F /* async-lifecycle.mjs */; };
+		4BEA7D20307A3EB90003330F /* git-render.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE6307A3EB90003330F /* git-render.mjs */; };
+		4BEA7D21307A3EB90003330F /* git-remote-nostr.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE5307A3EB90003330F /* git-remote-nostr.mjs */; };
+		4BEA7D22307A3EB90003330F /* logger.js in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CEE307A3EB90003330F /* logger.js */; };
+		4BEA7D23307A3EB90003330F /* host-probe.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE9307A3EB90003330F /* host-probe.mjs */; };
+		4BEA7D24307A3EB90003330F /* git-refs.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE4307A3EB90003330F /* git-refs.mjs */; };
+		4BEA7D25307A3EB90003330F /* isomorphic-git-http-web.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CFC307A3EB90003330F /* isomorphic-git-http-web.mjs */; };
+		4BEA7D26307A3EB90003330F /* page.css in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF2307A3EB90003330F /* page.css */; };
+		4BEA7D27307A3EB90003330F /* page-shell.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF5307A3EB90003330F /* page-shell.mjs */; };
+		4BEA7D28307A3EB90003330F /* bridge-recent-state.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD2307A3EB90003330F /* bridge-recent-state.mjs */; };
+		4BEA7D29307A3EB90003330F /* git-viewer.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE8307A3EB90003330F /* git-viewer.mjs */; };
+		4BEA7D2A307A3EB90003330F /* git-page.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE2307A3EB90003330F /* git-page.mjs */; };
+		4BEA7D2B307A3EB90003330F /* network-time.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF0307A3EB90003330F /* network-time.mjs */; };
+		4BEA7D2C307A3EB90003330F /* cross-protocol-broadcast.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD9307A3EB90003330F /* cross-protocol-broadcast.mjs */; };
+		4BEA7D2D307A3EB90003330F /* git-chat-link.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDF307A3EB90003330F /* git-chat-link.mjs */; };
+		4BEA7D2E307A3EB90003330F /* app-version.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CCB307A3EB90003330F /* app-version.mjs */; };
+		4BEA7D2F307A3EB90003330F /* bridge-relay-page.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD4307A3EB90003330F /* bridge-relay-page.mjs */; };
+		4BEA7D30307A3EB90003330F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D06307A3EB90003330F /* README.md */; };
+		4BEA7D31307A3EB90003330F /* P2P_ANALYSIS.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC0307A3EB90003330F /* P2P_ANALYSIS.md */; };
+		4BEA7D32307A3EB90003330F /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D08307A3EB90003330F /* setup.sh */; };
+		4BEA7D33307A3EB90003330F /* blame.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CBD307A3EB90003330F /* blame.html */; };
+		4BEA7D34307A3EB90003330F /* bridge-page.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CCF307A3EB90003330F /* bridge-page.mjs */; };
+		4BEA7D35307A3EB90003330F /* nostr-tools.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CFE307A3EB90003330F /* nostr-tools.mjs */; };
+		4BEA7D36307A3EB90003330F /* page-header.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF3307A3EB90003330F /* page-header.mjs */; };
+		4BEA7D37307A3EB90003330F /* dag-db.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDA307A3EB90003330F /* dag-db.mjs */; };
+		4BEA7D38307A3EB90003330F /* nip-pip-example.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D05307A3EB90003330F /* nip-pip-example.html */; };
+		4BEA7D39307A3EB90003330F /* git-repo.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE7307A3EB90003330F /* git-repo.mjs */; };
+		4BEA7D3A307A3EB90003330F /* git-clone.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE0307A3EB90003330F /* git-clone.mjs */; };
+		4BEA7D3B307A3EB90003330F /* nostr_dag.js in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC4307A3EB90003330F /* nostr_dag.js */; };
+		4BEA7D3C307A3EB90003330F /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDD307A3EB90003330F /* favicon.ico */; };
+		4BEA7D3D307A3EB90003330F /* chat-protocol.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD8307A3EB90003330F /* chat-protocol.mjs */; };
+		4BEA7D3E307A3EB90003330F /* chat.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D01307A3EB90003330F /* chat.html */; };
+		4BEA7D3F307A3EB90003330F /* GIT_PROXY.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CBE307A3EB90003330F /* GIT_PROXY.md */; };
+		4BEA7D40307A3EB90003330F /* relay-ping.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF7307A3EB90003330F /* relay-ping.mjs */; };
+		4BEA7D41307A3EB90003330F /* logger-footer.js in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CEF307A3EB90003330F /* logger-footer.js */; };
+		4BEA7D42307A3EB90003330F /* network_time.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D04307A3EB90003330F /* network_time.html */; };
+		4BEA7D43307A3EB90003330F /* nostr_dag_bg.wasm in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC5307A3EB90003330F /* nostr_dag_bg.wasm */; };
+		4BEA7D44307A3EB90003330F /* bridge-relay-data.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD3307A3EB90003330F /* bridge-relay-data.mjs */; };
+		4BEA7D45307A3EB90003330F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC3307A3EB90003330F /* LICENSE */; };
+		4BEA7D46307A3EB90003330F /* chat.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD7307A3EB90003330F /* chat.mjs */; };
+		4BEA7D47307A3EB90003330F /* page-path.js in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF4307A3EB90003330F /* page-path.js */; };
+		4BEA7D48307A3EB90003330F /* vpn-detect.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF9307A3EB90003330F /* vpn-detect.mjs */; };
+		4BEA7D49307A3EB90003330F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D03307A3EB90003330F /* index.html */; };
+		4BEA7D4A307A3EB90003330F /* lightning-fs.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CFD307A3EB90003330F /* lightning-fs.mjs */; };
+		4BEA7D4B307A3EB90003330F /* libp2p-stack.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CEC307A3EB90003330F /* libp2p-stack.mjs */; };
+		4BEA7D4C307A3EB90003330F /* bridge-protocol.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD0307A3EB90003330F /* bridge-protocol.mjs */; };
+		4BEA7D4D307A3EB90003330F /* dag-quorum.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDC307A3EB90003330F /* dag-quorum.mjs */; };
+		4BEA7D4E307A3EB90003330F /* relays-list.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF8307A3EB90003330F /* relays-list.mjs */; };
+		4BEA7D4F307A3EB90003330F /* git-bundle-http.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CDE307A3EB90003330F /* git-bundle-http.mjs */; };
+		4BEA7D50307A3EB90003330F /* peers-list.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CF6307A3EB90003330F /* peers-list.mjs */; };
+		4BEA7D51307A3EB90003330F /* federation.toml in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7D02307A3EB90003330F /* federation.toml */; };
+		4BEA7D52307A3EB90003330F /* bridge-roundtrip.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CD5307A3EB90003330F /* bridge-roundtrip.mjs */; };
+		4BEA7D53307A3EB90003330F /* git-progress.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CE3307A3EB90003330F /* git-progress.mjs */; };
+		4BEA7D54307A3EB90003330F /* list-container.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CED307A3EB90003330F /* list-container.mjs */; };
+		4BEA7D55307A3EB90003330F /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA7CC8307A3EB90003330F /* package.json */; };
 		FBD79B0D2A4238FB006F9679 /* WKWebviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79B0C2A4238FB006F9679 /* WKWebviewApp.swift */; };
 		FBD79B0F2A4238FB006F9679 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79B0E2A4238FB006F9679 /* ContentView.swift */; };
 		FBD79B112A4238FC006F9679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD79B102A4238FC006F9679 /* Assets.xcassets */; };
@@ -35,6 +112,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B9767B2307A3C29007A375E /* StaticFileServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileServer.swift; sourceTree = "<group>"; };
+		4BEA7CB4307A3EB90003330F /* nostr.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nostr.json; sourceTree = "<group>"; };
+		4BEA7CB6307A3EB90003330F /* event.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = event.html; sourceTree = "<group>"; };
+		4BEA7CB7307A3EB90003330F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4BEA7CB8307A3EB90003330F /* relay.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = relay.html; sourceTree = "<group>"; };
+		4BEA7CBA307A3EB90003330F /* dag-actions.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dag-actions.mjs"; sourceTree = "<group>"; };
+		4BEA7CBB307A3EB90003330F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4BEA7CBD307A3EB90003330F /* blame.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blame.html; sourceTree = "<group>"; };
+		4BEA7CBE307A3EB90003330F /* GIT_PROXY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GIT_PROXY.md; sourceTree = "<group>"; };
+		4BEA7CBF307A3EB90003330F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4BEA7CC0307A3EB90003330F /* P2P_ANALYSIS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = P2P_ANALYSIS.md; sourceTree = "<group>"; };
+		4BEA7CC1307A3EB90003330F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BEA7CC3307A3EB90003330F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4BEA7CC4307A3EB90003330F /* nostr_dag.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nostr_dag.js; sourceTree = "<group>"; };
+		4BEA7CC5307A3EB90003330F /* nostr_dag_bg.wasm */ = {isa = PBXFileReference; lastKnownFileType = file; path = nostr_dag_bg.wasm; sourceTree = "<group>"; };
+		4BEA7CC6307A3EB90003330F /* nostr_dag_bg.wasm.d.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = nostr_dag_bg.wasm.d.ts; sourceTree = "<group>"; };
+		4BEA7CC7307A3EB90003330F /* nostr_dag.d.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = nostr_dag.d.ts; sourceTree = "<group>"; };
+		4BEA7CC8307A3EB90003330F /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		4BEA7CC9307A3EB90003330F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BEA7CCB307A3EB90003330F /* app-version.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "app-version.mjs"; sourceTree = "<group>"; };
+		4BEA7CCC307A3EB90003330F /* app-version.generated.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "app-version.generated.mjs"; sourceTree = "<group>"; };
+		4BEA7CCD307A3EB90003330F /* async-lifecycle.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "async-lifecycle.mjs"; sourceTree = "<group>"; };
+		4BEA7CCE307A3EB90003330F /* bridge-cache.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-cache.mjs"; sourceTree = "<group>"; };
+		4BEA7CCF307A3EB90003330F /* bridge-page.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-page.mjs"; sourceTree = "<group>"; };
+		4BEA7CD0307A3EB90003330F /* bridge-protocol.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-protocol.mjs"; sourceTree = "<group>"; };
+		4BEA7CD1307A3EB90003330F /* bridge-recent-query.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-recent-query.mjs"; sourceTree = "<group>"; };
+		4BEA7CD2307A3EB90003330F /* bridge-recent-state.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-recent-state.mjs"; sourceTree = "<group>"; };
+		4BEA7CD3307A3EB90003330F /* bridge-relay-data.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-relay-data.mjs"; sourceTree = "<group>"; };
+		4BEA7CD4307A3EB90003330F /* bridge-relay-page.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-relay-page.mjs"; sourceTree = "<group>"; };
+		4BEA7CD5307A3EB90003330F /* bridge-roundtrip.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bridge-roundtrip.mjs"; sourceTree = "<group>"; };
+		4BEA7CD6307A3EB90003330F /* browser-detect.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "browser-detect.mjs"; sourceTree = "<group>"; };
+		4BEA7CD7307A3EB90003330F /* chat.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = chat.mjs; sourceTree = "<group>"; };
+		4BEA7CD8307A3EB90003330F /* chat-protocol.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "chat-protocol.mjs"; sourceTree = "<group>"; };
+		4BEA7CD9307A3EB90003330F /* cross-protocol-broadcast.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cross-protocol-broadcast.mjs"; sourceTree = "<group>"; };
+		4BEA7CDA307A3EB90003330F /* dag-db.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dag-db.mjs"; sourceTree = "<group>"; };
+		4BEA7CDB307A3EB90003330F /* dag-page.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dag-page.mjs"; sourceTree = "<group>"; };
+		4BEA7CDC307A3EB90003330F /* dag-quorum.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dag-quorum.mjs"; sourceTree = "<group>"; };
+		4BEA7CDD307A3EB90003330F /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		4BEA7CDE307A3EB90003330F /* git-bundle-http.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-bundle-http.mjs"; sourceTree = "<group>"; };
+		4BEA7CDF307A3EB90003330F /* git-chat-link.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-chat-link.mjs"; sourceTree = "<group>"; };
+		4BEA7CE0307A3EB90003330F /* git-clone.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-clone.mjs"; sourceTree = "<group>"; };
+		4BEA7CE1307A3EB90003330F /* git-p2p-transport.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-p2p-transport.mjs"; sourceTree = "<group>"; };
+		4BEA7CE2307A3EB90003330F /* git-page.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-page.mjs"; sourceTree = "<group>"; };
+		4BEA7CE3307A3EB90003330F /* git-progress.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-progress.mjs"; sourceTree = "<group>"; };
+		4BEA7CE4307A3EB90003330F /* git-refs.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-refs.mjs"; sourceTree = "<group>"; };
+		4BEA7CE5307A3EB90003330F /* git-remote-nostr.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-remote-nostr.mjs"; sourceTree = "<group>"; };
+		4BEA7CE6307A3EB90003330F /* git-render.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-render.mjs"; sourceTree = "<group>"; };
+		4BEA7CE7307A3EB90003330F /* git-repo.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-repo.mjs"; sourceTree = "<group>"; };
+		4BEA7CE8307A3EB90003330F /* git-viewer.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-viewer.mjs"; sourceTree = "<group>"; };
+		4BEA7CE9307A3EB90003330F /* host-probe.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "host-probe.mjs"; sourceTree = "<group>"; };
+		4BEA7CEA307A3EB90003330F /* icon-circle-bitcoin.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "icon-circle-bitcoin.svg"; sourceTree = "<group>"; };
+		4BEA7CEB307A3EB90003330F /* icon-circle-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "icon-circle-white.svg"; sourceTree = "<group>"; };
+		4BEA7CEC307A3EB90003330F /* libp2p-stack.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libp2p-stack.mjs"; sourceTree = "<group>"; };
+		4BEA7CED307A3EB90003330F /* list-container.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "list-container.mjs"; sourceTree = "<group>"; };
+		4BEA7CEE307A3EB90003330F /* logger.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = logger.js; sourceTree = "<group>"; };
+		4BEA7CEF307A3EB90003330F /* logger-footer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "logger-footer.js"; sourceTree = "<group>"; };
+		4BEA7CF0307A3EB90003330F /* network-time.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "network-time.mjs"; sourceTree = "<group>"; };
+		4BEA7CF1307A3EB90003330F /* nip34-quorum.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nip34-quorum.mjs"; sourceTree = "<group>"; };
+		4BEA7CF2307A3EB90003330F /* page.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = page.css; sourceTree = "<group>"; };
+		4BEA7CF3307A3EB90003330F /* page-header.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "page-header.mjs"; sourceTree = "<group>"; };
+		4BEA7CF4307A3EB90003330F /* page-path.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "page-path.js"; sourceTree = "<group>"; };
+		4BEA7CF5307A3EB90003330F /* page-shell.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "page-shell.mjs"; sourceTree = "<group>"; };
+		4BEA7CF6307A3EB90003330F /* peers-list.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "peers-list.mjs"; sourceTree = "<group>"; };
+		4BEA7CF7307A3EB90003330F /* relay-ping.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "relay-ping.mjs"; sourceTree = "<group>"; };
+		4BEA7CF8307A3EB90003330F /* relays-list.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "relays-list.mjs"; sourceTree = "<group>"; };
+		4BEA7CF9307A3EB90003330F /* vpn-detect.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vpn-detect.mjs"; sourceTree = "<group>"; };
+		4BEA7CFB307A3EB90003330F /* isomorphic-git.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "isomorphic-git.mjs"; sourceTree = "<group>"; };
+		4BEA7CFC307A3EB90003330F /* isomorphic-git-http-web.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "isomorphic-git-http-web.mjs"; sourceTree = "<group>"; };
+		4BEA7CFD307A3EB90003330F /* lightning-fs.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lightning-fs.mjs"; sourceTree = "<group>"; };
+		4BEA7CFE307A3EB90003330F /* nostr-tools.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nostr-tools.mjs"; sourceTree = "<group>"; };
+		4BEA7D00307A3EB90003330F /* .nojekyll */ = {isa = PBXFileReference; lastKnownFileType = text; path = .nojekyll; sourceTree = "<group>"; };
+		4BEA7D01307A3EB90003330F /* chat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = chat.html; sourceTree = "<group>"; };
+		4BEA7D02307A3EB90003330F /* federation.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = federation.toml; sourceTree = "<group>"; };
+		4BEA7D03307A3EB90003330F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4BEA7D04307A3EB90003330F /* network_time.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = network_time.html; sourceTree = "<group>"; };
+		4BEA7D05307A3EB90003330F /* nip-pip-example.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "nip-pip-example.html"; sourceTree = "<group>"; };
+		4BEA7D06307A3EB90003330F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BEA7D07307A3EB90003330F /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		4BEA7D08307A3EB90003330F /* setup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
 		FBA9B1A42A42599B001115F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FBD79B092A4238FB006F9679 /* WKWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD79B0C2A4238FB006F9679 /* WKWebviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewApp.swift; sourceTree = "<group>"; };
@@ -75,14 +231,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BEA7CB5307A3EB90003330F /* .well-known */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CB4307A3EB90003330F /* nostr.json */,
+			);
+			path = ".well-known";
+			sourceTree = "<group>";
+		};
+		4BEA7CB9307A3EB90003330F /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CB6307A3EB90003330F /* event.html */,
+				4BEA7CB7307A3EB90003330F /* index.html */,
+				4BEA7CB8307A3EB90003330F /* relay.html */,
+			);
+			path = bridge;
+			sourceTree = "<group>";
+		};
+		4BEA7CBC307A3EB90003330F /* dag */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CBA307A3EB90003330F /* dag-actions.mjs */,
+				4BEA7CBB307A3EB90003330F /* index.html */,
+			);
+			path = dag;
+			sourceTree = "<group>";
+		};
+		4BEA7CC2307A3EB90003330F /* git */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CBD307A3EB90003330F /* blame.html */,
+				4BEA7CBE307A3EB90003330F /* GIT_PROXY.md */,
+				4BEA7CBF307A3EB90003330F /* index.html */,
+				4BEA7CC0307A3EB90003330F /* P2P_ANALYSIS.md */,
+				4BEA7CC1307A3EB90003330F /* README.md */,
+			);
+			path = git;
+			sourceTree = "<group>";
+		};
+		4BEA7CCA307A3EB90003330F /* pkg */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CC3307A3EB90003330F /* LICENSE */,
+				4BEA7CC4307A3EB90003330F /* nostr_dag.js */,
+				4BEA7CC5307A3EB90003330F /* nostr_dag_bg.wasm */,
+				4BEA7CC6307A3EB90003330F /* nostr_dag_bg.wasm.d.ts */,
+				4BEA7CC7307A3EB90003330F /* nostr_dag.d.ts */,
+				4BEA7CC8307A3EB90003330F /* package.json */,
+				4BEA7CC9307A3EB90003330F /* README.md */,
+			);
+			path = pkg;
+			sourceTree = "<group>";
+		};
+		4BEA7CFA307A3EB90003330F /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CCB307A3EB90003330F /* app-version.mjs */,
+				4BEA7CCC307A3EB90003330F /* app-version.generated.mjs */,
+				4BEA7CCD307A3EB90003330F /* async-lifecycle.mjs */,
+				4BEA7CCE307A3EB90003330F /* bridge-cache.mjs */,
+				4BEA7CCF307A3EB90003330F /* bridge-page.mjs */,
+				4BEA7CD0307A3EB90003330F /* bridge-protocol.mjs */,
+				4BEA7CD1307A3EB90003330F /* bridge-recent-query.mjs */,
+				4BEA7CD2307A3EB90003330F /* bridge-recent-state.mjs */,
+				4BEA7CD3307A3EB90003330F /* bridge-relay-data.mjs */,
+				4BEA7CD4307A3EB90003330F /* bridge-relay-page.mjs */,
+				4BEA7CD5307A3EB90003330F /* bridge-roundtrip.mjs */,
+				4BEA7CD6307A3EB90003330F /* browser-detect.mjs */,
+				4BEA7CD7307A3EB90003330F /* chat.mjs */,
+				4BEA7CD8307A3EB90003330F /* chat-protocol.mjs */,
+				4BEA7CD9307A3EB90003330F /* cross-protocol-broadcast.mjs */,
+				4BEA7CDA307A3EB90003330F /* dag-db.mjs */,
+				4BEA7CDB307A3EB90003330F /* dag-page.mjs */,
+				4BEA7CDC307A3EB90003330F /* dag-quorum.mjs */,
+				4BEA7CDD307A3EB90003330F /* favicon.ico */,
+				4BEA7CDE307A3EB90003330F /* git-bundle-http.mjs */,
+				4BEA7CDF307A3EB90003330F /* git-chat-link.mjs */,
+				4BEA7CE0307A3EB90003330F /* git-clone.mjs */,
+				4BEA7CE1307A3EB90003330F /* git-p2p-transport.mjs */,
+				4BEA7CE2307A3EB90003330F /* git-page.mjs */,
+				4BEA7CE3307A3EB90003330F /* git-progress.mjs */,
+				4BEA7CE4307A3EB90003330F /* git-refs.mjs */,
+				4BEA7CE5307A3EB90003330F /* git-remote-nostr.mjs */,
+				4BEA7CE6307A3EB90003330F /* git-render.mjs */,
+				4BEA7CE7307A3EB90003330F /* git-repo.mjs */,
+				4BEA7CE8307A3EB90003330F /* git-viewer.mjs */,
+				4BEA7CE9307A3EB90003330F /* host-probe.mjs */,
+				4BEA7CEA307A3EB90003330F /* icon-circle-bitcoin.svg */,
+				4BEA7CEB307A3EB90003330F /* icon-circle-white.svg */,
+				4BEA7CEC307A3EB90003330F /* libp2p-stack.mjs */,
+				4BEA7CED307A3EB90003330F /* list-container.mjs */,
+				4BEA7CEE307A3EB90003330F /* logger.js */,
+				4BEA7CEF307A3EB90003330F /* logger-footer.js */,
+				4BEA7CF0307A3EB90003330F /* network-time.mjs */,
+				4BEA7CF1307A3EB90003330F /* nip34-quorum.mjs */,
+				4BEA7CF2307A3EB90003330F /* page.css */,
+				4BEA7CF3307A3EB90003330F /* page-header.mjs */,
+				4BEA7CF4307A3EB90003330F /* page-path.js */,
+				4BEA7CF5307A3EB90003330F /* page-shell.mjs */,
+				4BEA7CF6307A3EB90003330F /* peers-list.mjs */,
+				4BEA7CF7307A3EB90003330F /* relay-ping.mjs */,
+				4BEA7CF8307A3EB90003330F /* relays-list.mjs */,
+				4BEA7CF9307A3EB90003330F /* vpn-detect.mjs */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		4BEA7CFF307A3EB90003330F /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CFB307A3EB90003330F /* isomorphic-git.mjs */,
+				4BEA7CFC307A3EB90003330F /* isomorphic-git-http-web.mjs */,
+				4BEA7CFD307A3EB90003330F /* lightning-fs.mjs */,
+				4BEA7CFE307A3EB90003330F /* nostr-tools.mjs */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		4BEA7D09307A3EB90003330F /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA7CB5307A3EB90003330F /* .well-known */,
+				4BEA7CB9307A3EB90003330F /* bridge */,
+				4BEA7CBC307A3EB90003330F /* dag */,
+				4BEA7CC2307A3EB90003330F /* git */,
+				4BEA7CCA307A3EB90003330F /* pkg */,
+				4BEA7CFA307A3EB90003330F /* shared */,
+				4BEA7CFF307A3EB90003330F /* vendor */,
+				4BEA7D00307A3EB90003330F /* .nojekyll */,
+				4BEA7D01307A3EB90003330F /* chat.html */,
+				4BEA7D02307A3EB90003330F /* federation.toml */,
+				4BEA7D03307A3EB90003330F /* index.html */,
+				4BEA7D04307A3EB90003330F /* network_time.html */,
+				4BEA7D05307A3EB90003330F /* nip-pip-example.html */,
+				4BEA7D06307A3EB90003330F /* README.md */,
+				4BEA7D07307A3EB90003330F /* run.sh */,
+				4BEA7D08307A3EB90003330F /* setup.sh */,
+			);
+			name = demo;
+			path = ../demo;
+			sourceTree = SOURCE_ROOT;
+		};
 		FBD79B002A4238FB006F9679 = {
 			isa = PBXGroup;
 			children = (
+				4BEA7D09307A3EB90003330F /* demo */,
 				FBD79B372A423A01006F9679 /* WebView.swift */,
 				FBD79B0B2A4238FB006F9679 /* WKWebview */,
 				FBD79B1D2A4238FC006F9679 /* WKWebviewTests */,
 				FBD79B272A4238FC006F9679 /* WKWebviewUITests */,
 				FBD79B0A2A4238FB006F9679 /* Products */,
+				4B9767B2307A3C29007A375E /* StaticFileServer.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +538,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEA7D0A307A3EB90003330F /* dag-actions.mjs in Resources */,
+				4BEA7D0B307A3EB90003330F /* icon-circle-bitcoin.svg in Resources */,
+				4BEA7D0C307A3EB90003330F /* index.html in Resources */,
+				4BEA7D0D307A3EB90003330F /* bridge-recent-query.mjs in Resources */,
+				4BEA7D0E307A3EB90003330F /* index.html in Resources */,
+				4BEA7D0F307A3EB90003330F /* isomorphic-git.mjs in Resources */,
+				4BEA7D10307A3EB90003330F /* event.html in Resources */,
+				4BEA7D11307A3EB90003330F /* nostr.json in Resources */,
+				4BEA7D12307A3EB90003330F /* README.md in Resources */,
+				4BEA7D13307A3EB90003330F /* browser-detect.mjs in Resources */,
+				4BEA7D14307A3EB90003330F /* dag-page.mjs in Resources */,
+				4BEA7D15307A3EB90003330F /* app-version.generated.mjs in Resources */,
+				4BEA7D16307A3EB90003330F /* relay.html in Resources */,
+				4BEA7D17307A3EB90003330F /* bridge-cache.mjs in Resources */,
+				4BEA7D18307A3EB90003330F /* index.html in Resources */,
+				4BEA7D19307A3EB90003330F /* .nojekyll in Resources */,
+				4BEA7D1A307A3EB90003330F /* icon-circle-white.svg in Resources */,
+				4BEA7D1B307A3EB90003330F /* run.sh in Resources */,
+				4BEA7D1C307A3EB90003330F /* README.md in Resources */,
+				4BEA7D1D307A3EB90003330F /* git-p2p-transport.mjs in Resources */,
+				4BEA7D1E307A3EB90003330F /* nip34-quorum.mjs in Resources */,
+				4BEA7D1F307A3EB90003330F /* async-lifecycle.mjs in Resources */,
+				4BEA7D20307A3EB90003330F /* git-render.mjs in Resources */,
+				4BEA7D21307A3EB90003330F /* git-remote-nostr.mjs in Resources */,
+				4BEA7D22307A3EB90003330F /* logger.js in Resources */,
+				4BEA7D23307A3EB90003330F /* host-probe.mjs in Resources */,
+				4BEA7D24307A3EB90003330F /* git-refs.mjs in Resources */,
+				4BEA7D25307A3EB90003330F /* isomorphic-git-http-web.mjs in Resources */,
+				4BEA7D26307A3EB90003330F /* page.css in Resources */,
+				4BEA7D27307A3EB90003330F /* page-shell.mjs in Resources */,
+				4BEA7D28307A3EB90003330F /* bridge-recent-state.mjs in Resources */,
+				4BEA7D29307A3EB90003330F /* git-viewer.mjs in Resources */,
+				4BEA7D2A307A3EB90003330F /* git-page.mjs in Resources */,
+				4BEA7D2B307A3EB90003330F /* network-time.mjs in Resources */,
+				4BEA7D2C307A3EB90003330F /* cross-protocol-broadcast.mjs in Resources */,
+				4BEA7D2D307A3EB90003330F /* git-chat-link.mjs in Resources */,
+				4BEA7D2E307A3EB90003330F /* app-version.mjs in Resources */,
+				4BEA7D2F307A3EB90003330F /* bridge-relay-page.mjs in Resources */,
+				4BEA7D30307A3EB90003330F /* README.md in Resources */,
+				4BEA7D31307A3EB90003330F /* P2P_ANALYSIS.md in Resources */,
+				4BEA7D32307A3EB90003330F /* setup.sh in Resources */,
+				4BEA7D33307A3EB90003330F /* blame.html in Resources */,
+				4BEA7D34307A3EB90003330F /* bridge-page.mjs in Resources */,
+				4BEA7D35307A3EB90003330F /* nostr-tools.mjs in Resources */,
+				4BEA7D36307A3EB90003330F /* page-header.mjs in Resources */,
+				4BEA7D37307A3EB90003330F /* dag-db.mjs in Resources */,
+				4BEA7D38307A3EB90003330F /* nip-pip-example.html in Resources */,
+				4BEA7D39307A3EB90003330F /* git-repo.mjs in Resources */,
+				4BEA7D3A307A3EB90003330F /* git-clone.mjs in Resources */,
+				4BEA7D3B307A3EB90003330F /* nostr_dag.js in Resources */,
+				4BEA7D3C307A3EB90003330F /* favicon.ico in Resources */,
+				4BEA7D3D307A3EB90003330F /* chat-protocol.mjs in Resources */,
+				4BEA7D3E307A3EB90003330F /* chat.html in Resources */,
+				4BEA7D3F307A3EB90003330F /* GIT_PROXY.md in Resources */,
+				4BEA7D40307A3EB90003330F /* relay-ping.mjs in Resources */,
+				4BEA7D41307A3EB90003330F /* logger-footer.js in Resources */,
+				4BEA7D42307A3EB90003330F /* network_time.html in Resources */,
+				4BEA7D43307A3EB90003330F /* nostr_dag_bg.wasm in Resources */,
+				4BEA7D44307A3EB90003330F /* bridge-relay-data.mjs in Resources */,
+				4BEA7D45307A3EB90003330F /* LICENSE in Resources */,
+				4BEA7D46307A3EB90003330F /* chat.mjs in Resources */,
+				4BEA7D47307A3EB90003330F /* page-path.js in Resources */,
+				4BEA7D48307A3EB90003330F /* vpn-detect.mjs in Resources */,
+				4BEA7D49307A3EB90003330F /* index.html in Resources */,
+				4BEA7D4A307A3EB90003330F /* lightning-fs.mjs in Resources */,
+				4BEA7D4B307A3EB90003330F /* libp2p-stack.mjs in Resources */,
+				4BEA7D4C307A3EB90003330F /* bridge-protocol.mjs in Resources */,
+				4BEA7D4D307A3EB90003330F /* dag-quorum.mjs in Resources */,
+				4BEA7D4E307A3EB90003330F /* relays-list.mjs in Resources */,
+				4BEA7D4F307A3EB90003330F /* git-bundle-http.mjs in Resources */,
+				4BEA7D50307A3EB90003330F /* peers-list.mjs in Resources */,
+				4BEA7D51307A3EB90003330F /* federation.toml in Resources */,
+				4BEA7D52307A3EB90003330F /* bridge-roundtrip.mjs in Resources */,
+				4BEA7D53307A3EB90003330F /* git-progress.mjs in Resources */,
+				4BEA7D54307A3EB90003330F /* list-container.mjs in Resources */,
+				4BEA7D55307A3EB90003330F /* package.json in Resources */,
 				FBD79B152A4238FC006F9679 /* Preview Assets.xcassets in Resources */,
 				FBD79B112A4238FC006F9679 /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9767B3307A3C29007A375E /* StaticFileServer.swift in Sources */,
 				FBD79B0F2A4238FB006F9679 /* ContentView.swift in Sources */,
 				FBD79B0D2A4238FB006F9679 /* WKWebviewApp.swift in Sources */,
 				FBD79B382A423A01006F9679 /* WebView.swift in Sources */,
